@@ -1,5 +1,7 @@
 def fizzbuzz(value):
     if is_multiple(value, 3):
+        if is_multiple(value, 5):
+            return "FizzBuzz"
         return "Fizz"
     if is_multiple(value, 5):
         return "Buzz"
