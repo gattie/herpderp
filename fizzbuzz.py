@@ -1,6 +1,9 @@
 def fizzbuzz(value):
-    if (value % 3) == 0:
+    if is_multiple(value, 3):
         return "Fizz"
-    if (value % 5) == 0:
+    if is_multiple(value, 5):
         return "Buzz"
     return str(value)
+
+def is_multiple(value, multiple):
+    return (value % multiple) == 0
