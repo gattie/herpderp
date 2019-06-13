@@ -1,5 +1,5 @@
-import fizzbuzz
+from fizzbuzz import fizzbuzz
 import pytest
 
 def test_fizzbuzz_is_callable():
-    fizzbuzz.fizzbuzz(1)
+    fizzbuzz(1)
