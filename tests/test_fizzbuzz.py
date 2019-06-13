@@ -13,3 +13,6 @@ def test_return_2_when_passed_2():
 
 def test_return_fizz_when_passed_3():
     check_fizzbuzz(3, "Fizz")
+
+def test_return_buzz_when_passed_5():
+    check_fizzbuzz(5, "Buzz")
