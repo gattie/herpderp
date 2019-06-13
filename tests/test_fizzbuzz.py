@@ -22,3 +22,6 @@ def test_return_fizz_when_passed_6():
 
 def test_return_buzz_when_passed_10():
     check_fizzbuzz(10, "Buzz")
+
+def test_return_fizzbuzz_when_passed_15():
+    check_fizzbuzz(15, "FizzBuzz")
