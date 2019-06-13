@@ -1,4 +1,5 @@
+import fizzbuzz
 import pytest
 
-def test_can_we_assert():
-    assert True
+def test_fizzbuzz_is_callable():
+    fizzbuzz.fizzbuzz(1)
