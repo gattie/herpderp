@@ -10,3 +10,6 @@ def test_return_1_when_passed_1():
 
 def test_return_2_when_passed_2():
     check_fizzbuzz(2, "2")
+
+def test_return_fizz_when_passed_3():
+    check_fizzbuzz(3, "Fizz")
